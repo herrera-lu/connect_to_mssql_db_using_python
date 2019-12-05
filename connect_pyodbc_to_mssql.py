@@ -1,5 +1,13 @@
 # Install ms odbc drivers following instructions on:
 # https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?redirectedfrom=MSDN&view=sql-server-ver15
+
+# Before pip installing pyodbc:
+# sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+# sudo apt-get install unixodbc-dev
+# On python 3.7:
+# sudo apt-get install python3.7-dev
+Be sure to have sudo apt-get install python3.7-dev
+
 import pyodbc
 
 # In linux, to get the driver name (after installing ms odbc driver for your distro):

@@ -4,6 +4,12 @@
 # Info for connecting SQLAlchemy to mssql through pyodbc
 # https://docs.sqlalchemy.org/en/13/dialects/mssql.html#dialect-mssql-pyodbc-connect
 
+# Before pip installing pyodbc:
+# sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+# sudo apt-get install unixodbc-dev
+# On python 3.7:
+# sudo apt-get install python3.7-dev
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from urllib.parse import quote_plus
