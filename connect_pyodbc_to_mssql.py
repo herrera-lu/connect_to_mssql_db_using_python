@@ -6,7 +6,6 @@
 # sudo apt-get install unixodbc-dev
 # On python 3.7:
 # sudo apt-get install python3.7-dev
-Be sure to have sudo apt-get install python3.7-dev
 
 import pyodbc
 
